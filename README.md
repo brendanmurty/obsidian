@@ -6,9 +6,9 @@ The files in this folder help to manage my custom [Obsidian](https://obsidian.md
 
 Here's some previews of Obsidian running with these settings using the vault in the [example directory](example).
 
-![Screenshot one](docs/dashboard.png)
+![Screenshot one](docs/screenshot1.png)
 
-![Screenshot two](docs/daily-item.png)
+![Screenshot two](docs/screenshot2.png)
 
 ## Setup
 
