@@ -12,7 +12,7 @@ CONFIG_DIR=$HOME"/Notes/.obsidian"
 
 # Location of the backup directory
 
-BACKUP_DIR=$HOME"/.obsidian-config-backup"
+BACKUP_DIR=$HOME"/.obsidian-config_"$(date +%Y%m%d%H%M)
 
 # Ask for confirmation from the user before continuing
 
