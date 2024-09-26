@@ -1,5 +1,3 @@
-# Dashboard
-
 ## Daily items
 
 ![[Daily items in calendar view]]

@@ -6,7 +6,9 @@ The files in this folder are for customising [Obsidian](https://obsidian.md/).
 
 Here's some previews of Obsidian running with these settings using the vault in the [example directory](example).
 
-![Screenshot of Obsidian running with these customisations applied](docs/example1.png)
+![Screenshot one](docs/dashboard.png)
+
+![Screenshot two](docs/daily-item.png)
 
 ## Setup
 
