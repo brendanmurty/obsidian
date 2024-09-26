@@ -1,8 +1,8 @@
 # Obsidian Configuration
 
-The files in this folder are for customising [Obsidian](https://obsidian.md/).
+The files in this folder help to manage my custom [Obsidian](https://obsidian.md/) configuration files.
 
-## Preview
+## Previews
 
 Here's some previews of Obsidian running with these settings using the vault in the [example directory](example).
 
