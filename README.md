@@ -1,6 +1,6 @@
 # Obsidian Configuration
 
-The files in this folder help to manage my custom [Obsidian](https://obsidian.md/) configuration files.
+My custom [Obsidian](https://obsidian.md/) configuration files ([config](config/)), example note vault ([example](example/)) and related management scripts ([setup.sh](setup.sh) and [update.sh](update.sh)).
 
 ## Previews
 
