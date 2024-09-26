@@ -26,7 +26,7 @@ kanban-plugin: board
 
 ## Maybe
 
-- [ ] [[reMarkable Paper Pro]] #maybe #work #money
+- [ ] [reMarkable Paper Pro](https://remarkable.com/store/remarkable-paper/pro) #maybe #work #money
 
 
 ## Done
