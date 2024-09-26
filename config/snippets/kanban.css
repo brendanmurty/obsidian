@@ -9,7 +9,7 @@ body:not(.is-mobile) .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
 /* Mobile: Board columns */
 body.is-mobile .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
   width: 330px !important;
-  max-height: 75vh;
+  max-height: 70vh;
 }
 
 .kanban-plugin__lane-header-wrapper {
@@ -30,7 +30,6 @@ body .kanban-plugin__item-button-wrapper {
   background-color: transparent;
   border: 0 none;
 }
-
 
 /* Cards */
 
