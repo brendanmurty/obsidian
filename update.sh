@@ -32,6 +32,14 @@ rm -rf $UPDATE_DIR
 mkdir -p $UPDATE_DIR
 cp -r $CONFIG_DIR/* $UPDATE_DIR
 
+# Commit config updates
+
+echo -e "${yellow}Committing and pushing changes${end}"
+
+git add config/*
+git commit -m "Update config"
+git push
+
 # Done
 
-echo -e "${green}Done. You'll now need to review and commit these updates manually.${end}"
+echo -e "${green}Done.${end}"
