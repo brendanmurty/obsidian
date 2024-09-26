@@ -10,6 +10,8 @@ Here's some previews of Obsidian running with these settings using the vault in 
 
 ![Screenshot two](docs/screenshot2.png)
 
+![Screenshot three](docs/screenshot3.png)
+
 ## Setup
 
 1. Install and open [Obsidian](https://obsidian.md/)
