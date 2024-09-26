@@ -2,6 +2,12 @@
 
 The files in this folder are for customising [Obsidian](https://obsidian.md/).
 
+## Preview
+
+Here's some previews of Obsidian running with these settings using the vault in the [example directory](example).
+
+![Screenshot of Obsidian running with these customisations applied](docs/example1.png)
+
 ## Setup
 
 1. Install and open [Obsidian](https://obsidian.md/)
