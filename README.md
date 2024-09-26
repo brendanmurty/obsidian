@@ -15,7 +15,7 @@ Here's some previews of Obsidian running with these settings using the vault in 
 ## Setup
 
 1. Install and open [Obsidian](https://obsidian.md/)
-2. Setup your Obsidian Vault at `~/Notes`
+2. Create a new Obsidian vault named `Notes` in your user directory
 3. Close Obsidian
 4. Setup fonts
 
