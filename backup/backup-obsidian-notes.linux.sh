@@ -3,6 +3,7 @@
 # Backup Obsidian Notes
 #  - Makes a timestamped ZIP file backup of your entire Obsidian notes directory
 #  - Requires zip, install with: sudo apt install zip
+#  - Requires a Linux system
 #  - Tested on Ubuntu 24.04, may need some tweaks for other distributions
 
 BACKUP_DIR=$HOME"/Backups"
