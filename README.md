@@ -1,6 +1,6 @@
 # Obsidian Configuration
 
-My custom [Obsidian](https://obsidian.md/) configuration files ([config](config/)), example note vault ([example](example/)) and related management scripts ([setup.sh](setup.sh) and [update.sh](update.sh)).
+My custom [Obsidian](https://obsidian.md/) configuration files ([config](config/)), example note vault ([example](example/)), management scripts ([setup.sh](setup.sh) and [update.sh](update.sh)), and [backup](backup/) scripts.
 
 ## Previews
 
