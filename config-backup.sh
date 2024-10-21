@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+
+# Backup Obsidian Configuration
+#  - Makes a copy of your Obsidian configuration to the config directory here
+
 # Setup the message colour characters
 
 blue="\033[0;34m"
@@ -10,7 +15,7 @@ end="\033[0m"
 
 CONFIG_DIR=$HOME"/Notes/.obsidian"
 
-# Location of the config directory
+# Location of the config directory here
 
 UPDATE_DIR="./config"
 
@@ -24,7 +29,7 @@ fi
 
 # Backup current config files
 
-echo -e "${yellow}Updating current config from files in $CONFIG_DIR"
+echo -e "${yellow}Updating current config from files in $CONFIG_DIR${end}"
 
 mkdir -p $CONFIG_DIR
 

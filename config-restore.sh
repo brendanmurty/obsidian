@@ -1,3 +1,9 @@
+#!/usr/bin/env bash
+
+# Restore Obsidian Configuration
+#  - Makes a backup of your current Obsidian configuration directory
+#  - Applies Obsidian configuration from the config directory here to your Obsidian vault
+
 # Setup the message colour characters
 
 blue="\033[0;34m"

@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
-BACKUP_DIR=~/Backups
-SOURCE_DIR=~/Notes
+# Backup Obsidian Notes
+#  - Makes a timestamped ZIP file backup of your entire Obsidian notes directory
+#  - Requires zip, install with: sudo apt install zip
+#  - Tested on Ubuntu 24.04, may need some tweaks for other distributions
+
+BACKUP_DIR=$HOME"/Backups"
+SOURCE_DIR=$HOME"/Notes"
 
 BACKUP_FILE=obsidian_$(date +%Y%m%d-%H%M%S).zip
 
