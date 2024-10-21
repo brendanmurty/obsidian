@@ -26,6 +26,12 @@ Example line to run every day at 2am and your user directory name is `example`:
 0 2 * * * /home/example/backup-obsidian-notes.sh
 ```
 
+You could also add an extra line below that to also run it after rebooting:
+
+```
+@reboot /home/example/backup-obsidian-notes.sh
+```
+
 ### Troubleshooting
 
 The `zip` command may fail if some filenames in `$SOURCE_DIR` include non standard characters.
