@@ -28,12 +28,13 @@ Example line to run every day at 2am and your user directory name is `example`:
 
 ### Troubleshooting
 
-The zip command may fail if some files in $SOURCE_DIR include non standard characters.
+The `zip` command may fail if some filenames in `$SOURCE_DIR` include non standard characters.
 
 Assuming your source notes directory is `~/Notes`, this can be fixed with:
 
 ```bash
 sudo apt install rename
+cp -r ~/Notes ~/Notes_backup-before-rename
 rename -n 's/[^\x00-\x7F]//g' ~/Notes/*
 ```
 
