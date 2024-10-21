@@ -2,11 +2,11 @@
   "calendar",
   "dataview",
   "obsidian-kanban",
-  "obsidian-reminder-plugin",
   "customizable-sidebar",
   "home-tab",
   "obsidian-image-gallery",
   "tag-wrangler",
   "obsidian-importer",
-  "obsidian-charts"
+  "obsidian-charts",
+  "periodic-notes"
 ]

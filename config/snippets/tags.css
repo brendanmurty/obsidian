@@ -36,12 +36,16 @@
 
 .tag[href^="#family"],
 .tag[href^="#home"],
+.tag[href^="#pets"],
 span[class^="cm-tag-family"],
 span[class*="cm-tag-family"],
 span[class^="cm-tag-home"],
 span[class*="cm-tag-home"],
+span[class^="cm-tag-pets"],
+span[class*="cm-tag-pets"],
 .cm-tag-family,
-.cm-tag-home {
+.cm-tag-home,
+.cm-tag-pets {
   background-color: #4d3ca6 !important;
 }
 

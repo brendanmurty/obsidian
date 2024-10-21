@@ -1,15 +1,25 @@
 /* Kanban boards */
 
 /* Desktop: Board columns */
-body:not(.is-mobile) .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
+body:not(.is-mobile) .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
   width: 650px !important;
-  max-height: 90vh;
+  max-height: 85vh;
+}
+
+/* Desktop: Make first Board column narrower, generally the "Inbox" column */
+body:not(.is-mobile) .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal):first-child {
+  width: 350px !important;
 }
 
 /* Mobile: Board columns */
-body.is-mobile .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
+body.is-mobile .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
   width: 330px !important;
   max-height: 70vh;
+}
+
+/* Mobile: Make first Board column narrower, generally the "Inbox" column */
+body.is-mobile .kanban-plugin__lane-wrapper:not(.collapse-horizontal):first-child {
+  width: 250px !important;
 }
 
 .kanban-plugin__lane-header-wrapper {
@@ -40,11 +50,18 @@ body .kanban-plugin__item-button-wrapper {
 
 /* Add a card button */
 
+.kanban-plugin__item-button-wrapper {
+  margin: 0;
+  padding: 0;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
 .kanban-plugin__item-button-wrapper button.kanban-plugin__new-item-button {
   color: var(--text-accent);
   cursor: pointer;
   border: 0 none;
-  padding: 20px 0;
+  padding: 1cqmin0px 0;
 }
 
 .kanban-plugin__item-button-wrapper .kanban-plugin__new-item-button:hover {

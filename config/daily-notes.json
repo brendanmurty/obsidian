@@ -1,6 +1,6 @@
 {
   "folder": "Personal/Daily",
-  "template": "Templates/DailyItem",
+  "template": "Personal/DailyItem",
   "autorun": false,
   "format": "YYYYMMDD"
 }
