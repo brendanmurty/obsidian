@@ -150,3 +150,9 @@ body.is-mobile .kanban-plugin__item-wrapper .kanban-plugin__item-title-wrapper {
 .kanban-plugin__lane-grip>svg {
   height: 18px;
 }
+
+/* Setting enabled: Prepend "Add a card" instead of append */
+
+.kanban-plugin__lane.will-prepend {
+  padding-bottom: 10px;
+}

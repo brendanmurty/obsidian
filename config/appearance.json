@@ -10,8 +10,8 @@
   "translucency": false,
   "showViewHeader": true,
   "baseFontSizeAction": false,
-  "interfaceFontFamily": "MD IO Regular",
-  "textFontFamily": "MD IO Regular",
-  "monospaceFontFamily": "MD IO Regular",
+  "interfaceFontFamily": "MD IO,MD IO Regular",
+  "textFontFamily": "MD IO,MD IO Regular",
+  "monospaceFontFamily": "MD IO,MD IO Regular",
   "baseFontSize": 18
 }

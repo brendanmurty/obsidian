@@ -27,18 +27,22 @@ body.is-mobile {
 
 body.theme-dark {
   --color-base-00: #000;
-  --ribbon-background: #222;
-  --tab-container-background: #000;
-  --titlebar-background: #222;
-  --background-secondary: #222;
+  --ribbon-background: var(--color-base-00) !important;
+  --tab-container-background: var(--color-base-00) !important;
+  --titlebar-background: var(--color-base-00) !important;
+  --titlebar-background-focused: var(--color-base-00) !important;
+  --titlebar-background-secondary: var(--color-base-00) !important;
+  --background-secondary: var(--color-base-00) !important;
 }
 
 body.theme-light {
   --color-base-00: #fff;
-  --ribbon-background: #f0f0f0;
-  --tab-container-background: #fff;
-  --titlebar-background: #f0f0f0;
-  --background-secondary: #f0f0f0;
+  --ribbon-background: var(--color-base-00) !important;
+  --tab-container-background: var(--color-base-00) !important;
+  --titlebar-background: var(--color-base-00) !important;
+  --titlebar-background-focused: var(--color-base-00) !important;
+  --titlebar-background-secondary: var(--color-base-00) !important;
+  --background-secondary: var(--color-base-00) !important;
 }
 
 /* Fonts */
