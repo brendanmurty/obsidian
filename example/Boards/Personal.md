@@ -17,7 +17,7 @@ kanban-plugin: board
 
 ## Next
 
-- [ ] Organise my birthday event #family #friends
+- [ ] Organise birthday event #family #friends
 
 
 ## Someday
