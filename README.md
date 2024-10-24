@@ -6,11 +6,11 @@ My custom [Obsidian](https://obsidian.md/) configuration files ([config](config/
 
 Here's some previews of Obsidian running with these settings using the vault in the [example directory](example).
 
-![Screenshot one](docs/example1.png)
+![Screenshot of a dashboard note](docs/dashboard.png)
 
-![Screenshot two](docs/example2.png)
+![Screenshot of a board note](docs/board.png)
 
-![Screenshot three](docs/example3.png)
+![Screenshot of a daily note](docs/daily.png)
 
 ## Initial Setup
 

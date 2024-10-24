@@ -1,4 +1,4 @@
 ```dataview
 CALENDAR file.day
-FROM "Personal/Daily"
+FROM "Planning/Daily"
 ```
