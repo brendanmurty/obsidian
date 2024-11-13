@@ -120,7 +120,9 @@ body.theme-light {
 .markdown-preview-view .internal-link,
 .markdown-preview-view .external-link,
 .cm-s-obsidian .cm-link,
-.cm-s-obsidian .cm-url,
+.cm-s-obsidian span.cm-formatting-link.cm-url,
+.cm-s-obsidian span.cm-url,
+.cm-s-obsidian span.cm-url .cm-underline,
 .cm-s-obsidian span.cm-link a,
 .markdown-source-view .cm-hmd-internal-link .cm-underline {
   color: var(--link-color);
