@@ -1,25 +1,49 @@
 /* Kanban boards */
 
+/* Columns */
+
+.kanban-plugin__lane-wrapper {
+  background-color: transparent;
+  border-radius: var(--input-radius);
+  border: 1px solid var(--color-base-40);
+}
+
+/* Make column headers larger */
+.kanban-plugin__lane-title-text,
+.kanban-plugin__lane-title-text .kanban-plugin__markdown-preview-view {
+  font-size: 18px;
+}
+
+.kanban-plugin__lane-grip>svg {
+  height: 18px;
+}
+
 /* Desktop: Board columns */
 body:not(.is-mobile) .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
-  width: 650px !important;
+  width: 35vw !important;
+  min-width: 450px;
+  max-width: 700px;
   max-height: 85vh;
 }
 
 /* Desktop: Make first Board column narrower, generally the "Inbox" column */
 body:not(.is-mobile) .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal):first-child {
-  width: 350px !important;
+  width: 15vw !important;
+  min-width: 350px;
 }
 
 /* Mobile: Board columns */
 body.is-mobile .kanban-plugin__horizontal .kanban-plugin__lane-wrapper:not(.collapse-horizontal) {
-  width: 330px !important;
+  width: 85vw !important;
+  min-width: 350px;
+  max-width: 450px;
   max-height: 70vh;
 }
 
 /* Mobile: Make first Board column narrower, generally the "Inbox" column */
 body.is-mobile .kanban-plugin__lane-wrapper:not(.collapse-horizontal):first-child {
-  width: 250px !important;
+  width: 60vw !important;
+  min-width: 250px;
 }
 
 .kanban-plugin__lane-header-wrapper {
@@ -90,8 +114,9 @@ body .kanban-plugin__item-button-wrapper {
 }
 
 .kanban-plugin__item-wrapper .kanban-plugin__item-title-wrapper,
-.kanban-plugin__item-title p {
-  font-size: var(--color-white) !important;
+.kanban-plugin__item-title p,
+.kanban-plugin .markdown-source-view.mod-cm6 {
+  font-size: 16px !important;
 }
 
 /* Increase Kanban card spacing on mobile to make it easier to move cards around */
@@ -131,24 +156,6 @@ body.is-mobile .kanban-plugin__item-wrapper .kanban-plugin__item-title-wrapper {
 
 .kanban-plugin__item-metadata:not(:empty) {
   font-size: 100%;
-}
-
-/* Columns */
-
-.kanban-plugin__lane-wrapper {
-  background-color: transparent;
-  border-radius: var(--input-radius);
-  border: 1px solid var(--color-base-40);
-}
-
-/* Make column headers larger */
-.kanban-plugin__lane-title-text,
-.kanban-plugin__lane-title-text .kanban-plugin__markdown-preview-view {
-  font-size: 18px;
-}
-
-.kanban-plugin__lane-grip>svg {
-  height: 18px;
 }
 
 /* Setting enabled: Prepend "Add a card" instead of append */

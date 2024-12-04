@@ -9,7 +9,7 @@
   "theme": "system",
   "translucency": false,
   "showViewHeader": true,
-  "baseFontSizeAction": false,
+  "baseFontSizeAction": true,
   "interfaceFontFamily": "MD IO,MD IO Regular",
   "textFontFamily": "MD IO,MD IO Regular",
   "monospaceFontFamily": "MD IO,MD IO Regular",
