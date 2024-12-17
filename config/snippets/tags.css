@@ -89,10 +89,12 @@ span[class*="cm-tag-games"] {
 }
 
 .tag[href^="#leisure"],
-.tag[href^="#tv"],
-.tag[href^="#movies"],
+.tag[href^="#show"],
+.tag[href^="#show"],
+.tag[href^="#movie"],
 .tag[href^="#video"],
 .cm-tag-leisure,
+.cm-tag-show,
 .cm-tag-tv,
 .cm-tag-movies,
 .cm-tag-video {
